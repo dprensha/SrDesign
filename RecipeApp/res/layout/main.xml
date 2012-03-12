@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:id="@+id/relativeLayout2">
+    <TextView android:layout_centerHorizontal="true" android:layout_alignParentTop="true" android:id="@+id/textView1" android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <Button android:layout_centerHorizontal="true" android:text="Button" android:layout_width="wrap_content" android:id="@+id/browse" android:layout_height="wrap_content" android:layout_below="@+id/textView1" ></Button>
+    <Button android:layout_centerHorizontal="true" android:text="Button" android:layout_width="wrap_content" android:id="@+id/edit" android:layout_height="wrap_content" android:layout_below="@+id/browse" ></Button>
+    <Button android:layout_centerHorizontal="true" android:text="Button" android:layout_width="wrap_content" android:id="@+id/favorite" android:layout_height="wrap_content" android:layout_below="@+id/edit" ></Button>
+    <Button android:layout_centerHorizontal="true" android:text="Button" android:layout_width="wrap_content" android:id="@+id/surprise" android:layout_height="wrap_content" android:layout_below="@+id/favorite" ></Button>
+    <AnalogClock android:id="@+id/analogClock1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/surprise" android:layout_toLeftOf="@+id/surprise"></AnalogClock>
+</RelativeLayout>
