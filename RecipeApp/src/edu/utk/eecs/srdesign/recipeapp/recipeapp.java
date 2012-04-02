@@ -49,8 +49,18 @@ public class recipeapp extends Activity {
         	}
         });
         
+//        Button edit = (Button)findViewById(R.id.edit);
+ //       edit.setOnClickListener(new View.OnClickListener(){
+ //       	public void onClick(View view){
+ //       		Intent editintent = new Intent(recipeapp.this,EditDefault.class);
+ //       		startActivity(editintent);
+ //       	}
+ //       });
+        
     }
-}
+
+   }
 
 //this is a new comment--testing commit
 //new comment 4/2
+//new comment 4/2 2:45 PM
